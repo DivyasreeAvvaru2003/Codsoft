@@ -1,0 +1,40 @@
+body{
+     background-image: url(traveller.jpeg);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: 100% 100%;
+}
+.main{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+.navbar .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: -2%;
+
+}
+ul{
+    margin-top: -4%;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 16px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategray;
+    margin-top: -3%;
+}
+ul li a:hover{
+    color: rgb(230,104,59);
+}
